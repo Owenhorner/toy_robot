@@ -1,4 +1,3 @@
-require File.expand_path('../robot/exceptions', __FILE__)
 require File.expand_path('../robot/movement', __FILE__)
 require File.expand_path('../robot/placement', __FILE__)
 require File.expand_path('../robot/report', __FILE__)
