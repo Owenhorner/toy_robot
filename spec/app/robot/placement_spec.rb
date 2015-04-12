@@ -13,6 +13,15 @@ RSpec.describe Robot::Placement do
     it 'invalid co-ordinates' do
       expect(@toy_robot.place( "6,6,north" )).to be_falsey
     end
+
+    it 'is placed' do
+      @toy_robot.place( "1,2,north" )
+      expect(@toy_robot.is_placed?).to be_truthy
+    end
+
+    it 'is not placed' do
+      expect(@toy_robot.is_placed?).to be_falsey
+    end
   end
 
   describe 'report' do

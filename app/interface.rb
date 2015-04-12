@@ -29,11 +29,11 @@ EXIT to turn off your robot.}
       when :place
         @toy_robot.place(place_arguments)
       when :move
-        @toy_robot.move
+        @toy_robot.move if @toy_robot.is_placed?
       when :left, :right
-        @toy_robot.turn(command)
+        @toy_robot.turn(command) if @toy_robot.is_placed?
       when :report
-        puts @toy_robot.report
+        puts @toy_robot.report if @toy_robot.is_placed?
       when :exit
         return false
       end

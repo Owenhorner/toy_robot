@@ -16,5 +16,9 @@ module Robot
     def report
       %{#{self.x},#{self.y},#{self.direction}}
     end
+
+    def is_placed?
+      !self.x.nil? && !self.y.nil? && !self.direction.nil? 
+    end
   end
 end
