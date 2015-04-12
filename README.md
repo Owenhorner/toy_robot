@@ -5,7 +5,6 @@
 ./bin/toy_robot
 
 ## Code problem details:
-
 -----------
 ### Toy Robot Simulator
 
