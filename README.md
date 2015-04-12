@@ -1,6 +1,7 @@
 # toy_robot
 
-To run toy_robot:
+# To run toy_robot:
+!
 ./bin/toy_robot
 
 Code problem details:
