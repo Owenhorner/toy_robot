@@ -39,9 +39,13 @@ The toy robot must not fall off the table during movement. This also includes th
 Example Input and Output:
 
 a)
+
 PLACE 0,0,NORTH
+
 MOVE
+
 REPORT
+
 Output: 0,1,NORTH
 
 
