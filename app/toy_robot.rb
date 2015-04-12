@@ -11,10 +11,6 @@ class ToyRobot
     @table = Table.new
   end
 
-  def place(coords_and_direction)
-    x, y, direction = coords_and_direction.split(',')
-  end
-
   def move
   end
 
