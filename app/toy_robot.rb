@@ -12,7 +12,4 @@ class ToyRobot
 
   def move
   end
-
-  def turn(direction)
-  end
 end
