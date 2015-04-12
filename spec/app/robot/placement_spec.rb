@@ -14,4 +14,11 @@ RSpec.describe Robot::Placement do
       expect(@toy_robot.place( "6,6,north" )).to be_falsey
     end
   end
+
+  describe 'report' do
+    it 'gets current position' do
+      @toy_robot.place("4,3,north")
+      expect(@toy_robot.report).to eq("4,3,NORTH")
+    end
+  end
 end

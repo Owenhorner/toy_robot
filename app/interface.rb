@@ -33,7 +33,7 @@ EXIT to turn off your robot.}
       when :left, :right
         @toy_robot.turn(command)
       when :report
-        @toy_robot.report
+        puts @toy_robot.report
       when :exit
         return false
       end
