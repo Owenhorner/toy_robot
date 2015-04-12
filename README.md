@@ -16,7 +16,7 @@ Descrip8on:
 that would result in the robot falling from the table must be prevented, however further valid movement commands must s8ll
 be allowed.
 
-. Create an applica8on that can read in commands of the following form - PLACE X,Y,F
+* Create an applica8on that can read in commands of the following form - PLACE X,Y,F
 MOVE
 LEFT
 RIGHT
@@ -35,47 +35,30 @@ and REPORT commands.
 * Input can be from a file, or from standard input, as the developer chooses. . Provide test data to exercise the applica8on.
 
 Constraints:
-The toy robot must not fall off the table during movement. This also includes the ini8al placement of the toy robot.
-Any move that would cause the robot to fall must be ignored.
-
+The toy robot must not fall off the table during movement. This also includes the ini8al placement of the toy robot.Any move that would cause the robot to fall must be ignored.
 Example Input and Output:
 
 a)
-
 PLACE 0,0,NORTH
-
 MOVE
-
 REPORT
-
 Output: 0,1,NORTH
 
 
 b)
-
 PLACE 0,0,NORTH
-
 LEFT
-
 REPORT
-
 Output: 0,0,WEST
 
 
 c)
-
 PLACE 1,2,EAST
-
 MOVE
-
 MOVE
-
 LEFT
-
 MOVE
-
 REPORT
-
 Output: 3,3,NORTH
 
 
