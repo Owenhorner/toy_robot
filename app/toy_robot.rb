@@ -9,7 +9,4 @@ class ToyRobot
   def initialize
     @table = Table.new
   end
-
-  def move
-  end
 end

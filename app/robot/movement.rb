@@ -13,5 +13,18 @@ module Robot
         end
       end
     end
+
+    def move
+      case self.direction
+      when 'NORTH'
+        self.y += 1 unless self.y == @table.y
+      when 'EAST'
+        self.x += 1 unless self.x == @table.x
+      when 'SOUTH'
+        self.y -= 1 unless self.y == 0
+      when 'WEST'
+        self.x -= 1 unless self.x == 0
+      end
+    end
   end
 end
