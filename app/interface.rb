@@ -38,7 +38,7 @@ EXIT to turn off your robot.}
         return false
       end
     else
-      puts 'invalid command'
+      puts 'Invalid Command'
     end
     true
   end
