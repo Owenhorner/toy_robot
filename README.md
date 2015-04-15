@@ -1,14 +1,25 @@
-# toy_robot
+# Toy Robot Simulator Coding Test
 
-## Running
+## Installing
+
+```shell
+bundle
+```
+
+## Running specs
+
+```shell
+rspec
+```
+
+## Running simulator
 
 ```shell
 ./bin/toy_robot
 ```
+-----------
 
 ## Code problem details:
------------
-### Toy Robot Simulator
 
 #### Description:
 * The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
