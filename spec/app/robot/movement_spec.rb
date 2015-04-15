@@ -14,7 +14,7 @@ RSpec.describe Robot::Movement do
     it 'faces correct direction after turning right' do
       expect(@toy_robot.turn(:right)).to eq('EAST')
     end
-    
+
     it 'faces correct direction after turning right' do
       @toy_robot.place('1,1,west')
       expect(@toy_robot.turn(:right)).to eq('NORTH')

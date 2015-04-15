@@ -2,6 +2,8 @@ module Robot
   #Adds placement behaviour to robot
   module Placement
     attr_accessor :x, :y, :direction
+    #@param coords_and_direction [String] of place arguments
+    #@return [Boolean] validity of robot placement
     def place(coords_and_direction)
       self.x, self.y, self.direction = coords_and_direction.split(',')
       self.x = self.x.to_i
