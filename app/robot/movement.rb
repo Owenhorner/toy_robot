@@ -1,5 +1,8 @@
 module Robot
+  #Responsible for robot movement behaviour
   module Movement
+    #Checks direction and changes robot to correct direction
+    #@param turn_direction [Symbol] direction the robot is turning
     def turn(turn_direction)
       directions = ['NORTH','EAST','SOUTH','WEST']
       case turn_direction
@@ -14,6 +17,7 @@ module Robot
       end
     end
 
+    #Moves the robot to the correct square on the table
     def move
       case self.direction
       when 'NORTH'

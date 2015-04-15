@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+#@author Owen Horner
+
 require File.expand_path('../../app/interface', __FILE__)
 
 Interface.new.begin
