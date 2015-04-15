@@ -12,6 +12,12 @@ bundle
 rspec
 ```
 
+## Yard docs
+
+```shell
+yard
+```
+
 ## Running simulator
 
 ```shell
